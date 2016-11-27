@@ -11,7 +11,6 @@ layout: default
 こちらのメインを持ったメールアドレスの発行も行っておりますので、
 ご希望の際は、[info@coderdojo.chiba.jp](mailto:info@coderdojo.chiba.jp) に利用用途などをお知らせください。
 
---
 
 また、こちらのページは、千葉県のCoderDojo関連の情報発信、資料配信などに利用することができます。
 
