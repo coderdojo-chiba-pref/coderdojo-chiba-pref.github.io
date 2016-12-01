@@ -17,7 +17,9 @@ title: CoderDojo千葉県
 lang: ja
 email: 'info@coderdojo.chiba.jp'
 description: > # this means to ignore newlines until "baseurl:"
-    このウェブサイトは、千葉県のCoderDojoに関する情報を集約するページです。
+  このウェブサイトは、千葉県のCoderDojoに関する情報を集約するページです。
+  CoderDojo(コーダー道場)は、フリー・ボランティア主導・コミュニティベースで行われる、
+  子ども向けのプログラミングクラブです。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://coderdojo.chiba.jp" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: coderdojo-chiba-pref
