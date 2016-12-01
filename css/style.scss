@@ -1,0 +1,65 @@
+---
+---
+
+body{
+}
+
+.main-col{
+  float: left;
+  margin-bottom: 15px;
+  padding-left: 15px;
+}
+
+.main-col-4{
+  width: -webkit-calc(25% - (30px / 2));
+  width: calc(25% - (30px / 2));
+}
+
+.home-dojos{
+  .home-dojo{
+    text-align: center;
+    cursor: pointer;
+    img{
+      width: 80%;
+    }
+    span{
+      display: block;
+      text-align: center;
+    }
+    span.name{
+      margin-top: 10px;
+      font-size:1.2em;
+      font-weight: bold;
+      &.small{
+        font-size: 0.95em;
+      }
+    
+    }
+    span.location{
+      font-size:0.8em;
+    }
+  }
+}
+
+.clearfix:after {
+    content:" ";
+    display:block;
+    clear:both;
+}
+
+@media screen and (max-width: 600px) {
+
+  .main-col-4 {
+    width: -webkit-calc(50% - (30px / 2));
+    width: calc(50% - (30px / 2)); 
+  }
+  .home-dojos{
+    .home-dojo{
+      span.name{
+        &.small{
+          font-size: 1.2em;
+        }
+      }
+    }
+  }
+}
