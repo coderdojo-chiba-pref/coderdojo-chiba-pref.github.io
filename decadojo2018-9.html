@@ -22,12 +22,6 @@
             border-radius: 10px;
         }
 
-        .box {
-            background-color: #d5fedf;
-            border-radius: 10px;
-            padding: 0;
-        }
-
         .box .body {
             padding: 10px;
         }
@@ -40,8 +34,7 @@
 
         .box h2, .box h3 {
             background-color: #93fcab;
-            border-top-left-radius: 10px;
-            border-top-right-radius: 10px;
+            border-radius: 10px;
             padding: 10px;
         }
 
@@ -49,6 +42,26 @@
             padding: 10px;
             border-radius: 10px;
             background-color: #72fb92;
+        }
+
+        .time-table .row {
+            margin: 10px 0;
+            border-radius: 10px;
+        }
+
+        .time-table .time {
+            background-color: #93fcab;
+            text-align: center;
+            padding: 10px;
+            border-radius: 10px;
+            font-weight: bold;
+        }
+
+        .time-table .event {
+            padding: 10px;
+            text-align: center;
+            background-color: #DDFCE1;
+            border-radius: 10px;
         }
     </style>
 </head>
@@ -60,103 +73,247 @@
             場所: <a href="https://goo.gl/maps/hSwCqFzDonr" target="_blank">神田外語大学</a> 8号館<br>
             参加費: 無料 (寄付による運用)</p>
         <div>
-            <a class="btn btn-primary btn-lg" href="https://goo.gl/forms/p48vpB4wKIDRTGZD2" target="_blank" role="button">参加申し込み</a>
+            <a class="btn btn-primary btn-lg" href="https://goo.gl/forms/p48vpB4wKIDRTGZD2" target="_blank"
+               role="button">参加申し込み</a>
         </div>
     </div>
 
 </div>
 <div class="container">
-    <div class="row mx-0">
-        <div class="col-md box m-2">
-            <h2><i class="fas fa-question"></i> でかドージョーとは</h2>
-            <div class="body">
-                <p>近隣のCoderDojoが集まって、いつもより、ちょっと大きなDojoを開催します。</p>
-                <div class="text-center">
-                    <img src="./images/deca2018/logo.png" alt="でかドージョーロゴ">
-                </div>
-                <ul>
-                    <li>市川</li>
-                    <li>市川真間</li>
-                    <li>浦安</li>
-                    <li>木更津</li>
-                    <li>千葉</li>
-                    <li>土気 (開催予定)</li>
-                    <li>船橋</li>
-                    <li>八街</li>
-                    <li>若松みつわ台</li>
-                    <li>若葉若松</li>
-                </ul>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="box">
+                <h2><i class="fas fa-question"></i> でかドージョーとは</h2>
+                <div class="body">
+                    <p>近隣のCoderDojoが集まって、いつもより、ちょっと大きなDojoを開催します。</p>
+                    <div class="text-center">
+                        <img src="./images/deca2018/logo.png" alt="でかドージョーロゴ">
+                    </div>
+                    <ul>
+                        <li>市川</li>
+                        <li>市川真間</li>
+                        <li>浦安</li>
+                        <li>木更津</li>
+                        <li>千葉</li>
+                        <li>土気 (開催予定)</li>
+                        <li>船橋</li>
+                        <li>八街</li>
+                        <li>若松みつわ台</li>
+                        <li>若葉若松</li>
+                    </ul>
 
-                <p><a href="/" target="_blank">千葉県のCoderDojoの情報はこちらを御覧ください。</a></p>
-            </div>
-        </div>
-        <div class="col-md box m-2">
-            <h2><i class="fas fa-question"></i> CoderDojoとは</h2>
-            <div class="body">
-                CoderDojo(コーダー道場)は、フリー・ボランティア主導・コミュニティベースで行われる、子ども向けのプログラミングクラブです。
-
-                <div class="text-center">
-                    <img src="./images/deca2018/decadojo2018-d1.jpg" alt="CoderDojoの様子">
-                </div>
-
-                <div class="my-2">
-                    <a class="btn btn-primary" href="https://coderdojo.jp/" target="_blank">CoderDojo Japan</a>
-                </div>
-                <div class="my-2">
-                    <a class="btn btn-primary" href="https://coderdojo.com/" target="_blank">CoderDojo公式 (英語)</a>
+                    <p><a href="/" target="_blank">千葉県のCoderDojoの情報はこちらを御覧ください。</a></p>
                 </div>
             </div>
         </div>
-        <div class="col-md box m-2">
-            <h2><i class="fab fa-wpforms"></i> 参加申し込み・要件</h2>
-            <div class="body">
-                <p>でかドージョーは、プログラミングに興味のある子どもを中心に、誰でも参加することができます。</p>
-                <p>参加費用は無料ですが、参加者の寄付による運営を行っております。</p>
-                <p>参加者および、スタッフ・サポーターは <a href="https://coderdojo.jp/docs/charter" target="_blank">CoderDojo憲章</a>の理念の元、行動する必要があります。
-                </p>
-                <a class="btn btn-primary" role="button" target="_blank" href="https://goo.gl/forms/p48vpB4wKIDRTGZD2">参加申し込み</a>
+        <div class="col-md-4">
+            <div class="box">
+                <h2><i class="fas fa-question"></i> CoderDojoとは</h2>
+                <div class="body">
+                    CoderDojo(コーダー道場)は、フリー・ボランティア主導・コミュニティベースで行われる、子ども向けのプログラミングクラブです。
+
+                    <div class="text-center">
+                        <img src="./images/deca2018/decadojo2018-d1.jpg" alt="CoderDojoの様子">
+                    </div>
+
+                    <div class="my-2">
+                        <a class="btn btn-primary" href="https://coderdojo.jp/" target="_blank">CoderDojo Japan</a>
+                    </div>
+                    <div class="my-2">
+                        <a class="btn btn-primary" href="https://coderdojo.com/" target="_blank">CoderDojo公式 (英語)</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="box">
+                <h2><i class="fab fa-wpforms"></i> 参加申し込み・要件</h2>
+                <div class="body">
+                    <p>でかドージョーは、プログラミングに興味のある子どもを中心に、誰でも参加することができます。</p>
+                    <p>参加費用は無料ですが、参加者の寄付による運営を行っております。</p>
+                    <p>参加者および、スタッフ・サポーターは <a href="https://coderdojo.jp/docs/charter" target="_blank">CoderDojo憲章</a>の理念の元、行動する必要があります。
+                    </p>
+                    <a class="btn btn-primary" role="button" target="_blank"
+                       href="https://goo.gl/forms/p48vpB4wKIDRTGZD2">参加申し込み</a>
+                </div>
             </div>
         </div>
     </div>
 
     <h2 class="my-4 event-head"><i class="fas fa-calendar-alt"></i> 開催イベント</h2>
-    <div class="row mx-0">
-        <div class="col-md box m-2">
-            <h3><i class="fas fa-hand-holding-heart"></i> 初心者向けワークショップ</h3>
-            <div class="body">
-                <p>プログラミングは初めてですか? プログラミングがはじめての人でも楽しめるワークショップをご用意しております！</p>
-                <p>
-                    時間: 10:30 - 12:10
-                </p>
-                <h4>持ち物</h4>
-                <ul>
-                    <li>ノートパソコン (数には限りがありますが、レンタルをすることもできます。)</li>
-                </ul>
+    <div class="row">
+        <div class="col-md-4 my-2">
+            <div class="box">
+                <h3><i class="fas fa-hand-holding-heart"></i> 初心者向けワークショップ</h3>
+                <div class="body">
+                    <p>プログラミングは初めてですか? プログラミングがはじめての人でも楽しめるワークショップをご用意しております！</p>
+                    <p>
+                        時間: 10:30 - 12:10
+                    </p>
+                    <h4>持ち物</h4>
+                    <ul>
+                        <li>ノートパソコン (数には限りがありますが、レンタルをすることもできます。)</li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <div class="col-md box m-2">
-            <h3><i class="fas fa-plug"></i> SONYの電子タグ【MESH】を利用したワークショップ</h3>
-            <div class="body">
-                <p>
-                    時間: 10:30 - 12:10
-                </p>
-                <p>
-                    つくれる、楽しめる、学べる アイデアを形にできる IoT 電子ブロック <a href="http://meshprj.com/jp/">MESH</a> を使って、
-                    センサーやボタンを用いた、「仕組み」を作ってみるワークショップです。
-                </p>
-                <h4>持ち物</h4>
-                <ul>
-                    <li>特に不要</li>
-                </ul>
+        <div class="col-md-4 my-2">
+            <div class="box">
+                <h3><i class="fas fa-plug"></i> SONYの電子タグ【MESH】を利用したワークショップ</h3>
+                <div class="body">
+                    <p>
+                        時間: 10:30 - 12:10
+                    </p>
+                    <p>
+                        つくれる、楽しめる、学べる アイデアを形にできる IoT 電子ブロック <a href="http://meshprj.com/jp/">MESH</a> を使って、
+                        センサーやボタンを用いた、「仕組み」を作ってみるワークショップです。
+                    </p>
+                    <h4>持ち物</h4>
+                    <ul>
+                        <li>特に不要</li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <div class="col-md box m-2">
-            <h3><i class="fas fa-bullhorn"></i> SHOW & TELL</h3>
-            <div class="body">
-                <p>時間: 13:30 - 17:00</p>
-                <p>普段のDojoでNinjaが作っている作品の展示会を行います。</p>
-                <p>お互いに作った作品を見せ合いましょう！</p>
-                <p>展示を行う人は、<b>ノートパソコンと作品</b>を持ってきてください。エントリーは、当日行います。</p>
+        <div class="col-md-4 my-2">
+            <div class="box">
+                <h3><i class="far fa-lightbulb"></i> ハッカソン</h3>
+                <div class="body">
+                    <p>
+                        時間: 10:30 - 12:10
+                    </p>
+                    <p>
+                        自由に開発をしよう！何か困ったことがあれば、メンターに相談できます。
+                    </p>
+                    <h4>持ち物</h4>
+                    <ul>
+                        <li>開発に必要なもの (ノートパソコンなど)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 my-2">
+            <div class="box">
+                <h3><i class="fas fa-bullhorn"></i> SHOW & TELL</h3>
+                <div class="body">
+                    <p>時間: 13:30 - 17:00</p>
+                    <p>普段のDojoでNinjaが作っている作品の展示会を行います。</p>
+                    <p>お互いに作った作品を見せ合いましょう！</p>
+                    <p>展示を行う人は、<b>ノートパソコンと作品</b>を持ってきてください。エントリーは、当日行います。</p>
+                    <p>
+                        詳細は<a
+                            href="https://drive.google.com/a/wakaba-marumaru-bu.org/file/d/157s3MtjsrmY6wouSp2h7h1X49LEzQ3PG/view?usp=sharing"
+                            target="_blank">こちら</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h2 class="my-4 event-head"><i class="fas fa-table"></i> タイムテーブル</h2>
+
+    <div class="time-table">
+        <div class="row">
+            <div class="col-3 time">
+                09:30 〜 10:00
+            </div>
+            <div class="col-9 event">
+                開場・受付
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3 time">
+                10:00 〜 10:15
+            </div>
+            <div class="col-9 event">
+                オープニングセレモニー
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3 time">
+                10:15 〜 12:15
+            </div>
+            <div class="col-3 event">
+                初心者向けワークショップ
+            </div>
+            <div class="col-3 event">
+                SONYの電子タグ【MESH】を利用したワークショップ
+            </div>
+            <div class="col-3 event">
+                ハッカソン
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3 time">
+                13:30 〜 14:00
+            </div>
+            <div class="col-9 event">
+                SHOW & TELL の説明 と 準備
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3 time">
+                14:00 〜 15:30
+            </div>
+            <div class="col-9 event">
+                SHOW & TELL
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3 time">
+                15:30 〜 17:00
+            </div>
+            <div class="col-9 event">
+                発表会・クロージング
+            </div>
+        </div>
+    </div>
+
+    <h2 class="my-4 event-head"><i class="fas fa-exclamation"></i> 注意事項</h2>
+
+    <div class="row">
+        <div class="col-md-4 my-2">
+            <div class="box">
+                <h3>駐車場について</h3>
+                <div class="body">
+                    <p>
+                        神田外語大学の駐車場が空いている場合は駐車可能です。
+                    </p>
+                    <p>
+                        但し、時間によってゲートが閉まっていたり、空きがない場合がございますので、
+                        その場合は最寄りの駐車場をご利用ください。
+                    </p>
+                    <p>
+                        また、できるだけ電車&バスなどの公共交通機関のご利用をお願いいたします。
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 my-2">
+            <div class="box">
+                <h3>写真撮影について</h3>
+                <div class="body">
+                    <p>
+                        会場ではスタッフが適宜写真撮影を行っております。
+                    </p>
+                    <p>
+                        撮影された写真については、ウェブサイトに公開されることがあります。もし撮影されるのが都合が悪い場合は、スタッフまでお知らせください。
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 my-2">
+            <div class="box">
+                <h3>昼食について</h3>
+                <div class="body">
+                    <p>
+                        会場付近のコンビニやスーパーはやや離れております。予め用意をしておくことを推奨致します。
+                    </p>
+
+                    <p>
+                        会場での飲食は可能ですが、一部禁止されている箇所もありますので、スタッフの指示に従ってください。
+                    </p>
+                </div>
             </div>
         </div>
     </div>
@@ -165,9 +322,10 @@
 <footer class="bg-footer p-2 mt-4">
     <div class="container">
         <p class="m-0">主催: NPO法人若葉まるまる部, NPO法人プログラミング教育研究機構(申請中)</p>
-        <p class="m-0">共催: <a href="https://www.kandagaigo.ac.jp/kuis/main/labo/lmlrc/" target="_blank">神田外語大学言語メディア教育研究センター(LMLRC)</a></p>
+        <p class="m-0">共催: <a href="https://www.kandagaigo.ac.jp/kuis/main/labo/lmlrc/" target="_blank">神田外語大学言語メディア教育研究センター(LMLRC)</a>
+        </p>
         <p class="m-0">後援: 千葉市教育委員会</p>
-        <a class="m-0"><a href="https://www.facebook.com/DecaDojo/" target="_blank">でかドージョーFacebook Page</a></p>
+        <p class="m-0"><a href="https://www.facebook.com/DecaDojo/" target="_blank">でかドージョーFacebook Page</a></p>
     </div>
 </footer>
 <script
