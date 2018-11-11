@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <title>CoderDojo プレゼンテーションDAY2018　in 神田外語大学(千葉)</title>
+  <title>CoderDojo プレゼンテーションDAY2018 in 神田外語大学(千葉)</title>
   <meta charset="UTF-8">
   <meta name="description" content="CoderDojoプレゼンテーションDAY2018 in 神田外語大学は、千葉県の12箇所のCoderDojoが集まって開催するプログラミング作品発表会イベントです。">
   <meta name="keyword" content="千葉県,千葉市,CoderDojo,プログラミング,Scratch,子ども,教育,プレゼンテーション">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <style>
@@ -13,7 +14,13 @@
       background-repeat: no-repeat;
       background-size:cover;
     }
-    
+
+    @media screen and (max-width: 425px) {
+      .jumbotron h1 {
+        font-size: 21px;
+      }
+    }
+
     .jumbotron .text {
       background-color: rgba(255, 255, 255, 0.8);
       border-radius: 10px;
@@ -22,7 +29,7 @@
 </head>
 <body>
   <div class="jumbotron">
-      <div class="text text-center p-2">
+      <div class="text text-center p-4">
           <h1>CoderDojo プレゼンテーションDAY2018<br> in 神田外語大学</h1>
           <p class="lead text-left mx-auto d-inline-block">2018年12月9日(日) 10:00 〜 17:00 開催<br>
               場所: <a href="https://goo.gl/maps/hSwCqFzDonr" target="_blank">神田外語大学</a> 8号館<br>
@@ -34,9 +41,9 @@
 
 
           <div class="mb-2">
-              <a class="btn btn-success btn-lg mr-2" href="https://goo.gl/forms/sskmHaHyzyzHybyu2" target="_blank"
+              <a class="btn btn-success btn-lg mr-2 mb-2" href="https://goo.gl/forms/sskmHaHyzyzHybyu2" target="_blank"
                  role="button">発表者申込み</a>
-              <a class="btn btn-primary btn-lg" href="https://goo.gl/forms/ipqnJZ6e1WPHlnCb2" target="_blank" role="button">
+              <a class="btn btn-primary btn-lg mb-2" href="https://goo.gl/forms/ipqnJZ6e1WPHlnCb2" target="_blank" role="button">
                   午前の部・一般申込み
               </a>
           </div>
@@ -54,7 +61,6 @@
         プレゼンテーションDAYは、CoderDojoに通うNinja(参加者)が楽しんで作り上げたプログラミング作品を発表する晴れ舞台です。 
         </p>
       </div>
-      
       <div class="col-12 col-md-6">
         <h2>
           CoderDojoとは?
@@ -62,11 +68,9 @@
         <p>
           CoderDojo(コーダー道場)は、フリー・ボランティア主導・コミュニティベースで行われる、子ども（小学生〜高校生）向けのプログラミングクラブです。
         </p>
-        
         <p>
           この会は千葉県にある12Dojoが共同開催します。
         </p>
-        
         <div class="mb-2">
           <a class="btn btn-primary" href="https://coderdojo.jp/" target="_blank">CoderDojo Japan</a>
         </div>
@@ -75,17 +79,15 @@
         </div>
       </div>
     </div>
-    
+
     <h2>
       午前の部 10:00〜12:00 ワークショップ
     </h2>
-    
     <p class="mb-4">
       ワークショップでは、初めての方や経験者の方でも楽しめる内容をご用意しています。
     </p>
-    
     <div class="row mb-4">
-      <div class="col-12 col-md-6">
+      <div class="col-12 col-md-6 mb-2">
         <h3>
           初心者ワークショップ
         </h3>
@@ -96,14 +98,12 @@
            持ち物
         </h4>
         <p>
-          ノートパソコン(お持ちでない方は参加申し込みの際にお知らせください。)
-    　　　　　　　　　　　<br>
-        　 マウス
-          <br>
+          ノートパソコン(お持ちでない方は参加申し込みの際にお知らせください。)<br>
+          マウス
         </p>
         <img src="https://cdn.glitch.com/8bfa02c5-1b20-46be-9d32-af6f2c353534%2Fbe.jpg?1541921970440" class="mw-100">
       </div>
-      <div class="col-12 col-md-6">
+      <div class="col-12 col-md-6 mb-2">
         <h3>
           MESH体験
         </h3>
@@ -119,22 +119,18 @@
         <img src="https://cdn.glitch.com/8bfa02c5-1b20-46be-9d32-af6f2c353534%2FIMG_4559.jpg?1541917471648" class="mw-100">
       </div>
     </div>
-    
     <h2>
       午後の分 13:00〜17:00 プレゼンテーションDAY
     </h2>
-    
     <p class="mb-4">
       CoderDojoで普段作品作りに励んでいる、Ninja（参加者）やメンターの作品の発表会です！普段、どのようなプログラムの開発に取り込んでいるのか、ぜひご確認ください！
       次のような発表があります。
     </p>
-    
     <div class="row">
       <div class="col-12 col-md-4">
         <h3>
           Scratch作品
         </h3>
-        
         <p>
           Scratchは、MITメディアラボが開発した、プログラミング言語学習環境です。
           ブロックを使うことによって直感的にコンピュータープログラムを作成することができます。
@@ -144,21 +140,12 @@
         <h3>
           火星ローバー
         </h3>
-        
         <p>
           千葉市で開催している、
           <a href="http://www.kagakukanq.com/info/20th_mars+contestinchiba" target="_blank" >火星ローバーコンテストin千葉</a>
           に出場するためにCoderDojoのNinja達がチームを作りました！
         </p>
       </div>
-      <div class="col-4">
-        <h3>
-          
-        </h3>
-        <p>
-          
-        </p>
-      </div>      
     </div>
   </div>
 
